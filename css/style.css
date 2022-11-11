@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.blue-color{
+    color: #0065FC;
+}
+
+.lighter-blue{
+    color:#DEEBFF;
+}
+
+.background-color{
+    color: #F2F2F2;
+}
