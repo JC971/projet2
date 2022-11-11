@@ -5,6 +5,9 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .blue-color{
@@ -32,3 +35,27 @@ nav ul{
 nav li{
     margin: 0 20px 0 20px;
 }
+
+/*logo*/
+nav img{
+    width: 61.09px;
+    height: 19px;
+    color: #0065FC;
+
+}
+
+/*textes li*/
+
+nav ul li{
+    font-weight: 500;
+}
+
+ul :first-child{
+    color: #0065FC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border-top: 1px solid #0065FC;
+}
+
