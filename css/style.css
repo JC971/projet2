@@ -10,17 +10,6 @@ body{
     margin-left: 20px;
 }
 
-.blue-color{
-    color: #0065FC;
-}
-
-.lighter-blue{
-    color:#DEEBFF;
-}
-
-.background-color{
-    color: #F2F2F2;
-}
 
 nav{
     display: flex;
@@ -42,12 +31,17 @@ nav img{
     height: 19px;
     color: #0065FC;
 
+    
+
 }
 
 /*textes li*/
 
 nav ul li{
     font-weight: 500;
+    height: 19px;
+
+
 }
 
 ul :first-child{
@@ -56,6 +50,42 @@ ul :first-child{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    border-top: 1px solid #0065FC;
+    
+    height: 19px;
+
+}
+
+/*------fléche sur menu navigation*/
+
+.vector{
+
+    position: relative;
+}
+
+.image-vector{
+   position: absolute;
+   width: 26.9px;
+   height: 27px;
+   top: 20px;
+   left: end;
+   
+   
+   
+  
+}
+
+/*--------------title-------*/
+
+.title{
+    position: absolute;
+    width: auto;
+    height: 26px;
+    left: 55px;
+    top: 126px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
 }
 
